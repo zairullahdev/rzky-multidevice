@@ -88,23 +88,6 @@ Isi semua yang dibutuhkan di file [`config.json`](https://github.com/Rizky878/rz
 
 Untuk request atau report bug bisa chat saya disini [Whatsapp](https://wa.me/6282387804410)
 
-## Instalasi On Termux
-
-### Clone Repo
-
-```bash
-> pkg install
-> pkg upgrade
-> pkg install git
-> pkg install ffmpeg && pkg install libwebp
-> pkg install nodejs
-> git clone --depth=1 https://github.com/Rizky878/rzky-multidevice/
-> cd rzky-multidevice
-> npm install --arch=x64 --platform=linux sharp
-> npm start
-# Scan QR
-```
-
 ## Instalasi
 
 ### Dibutuhkan
@@ -112,6 +95,22 @@ Untuk request atau report bug bisa chat saya disini [Whatsapp](https://wa.me/628
 1.  [Nodejs](https://nodejs.org/en/download) 16x/17x
 2.  [FFmpeg](https://ffmpeg.org)
 3.  [libWebP](https://developers.google.com/speed/webp/download)
+
+untuk termux, tidak perlu repot-repot
+
+
+```bash
+> pkg install
+> pkg upgrade
+> pkg install git libwebp nodejs ffmpeg
+> git clone --depth=1 https://github.com/Rizky878/rzky-multidevice/
+> cd rzky-multidevice
+> npm install --arch=x64 --platform=linux sharp
+> npm start
+# Scan QR
+```
+
+
 
 ### Install Ffmpeg
 
